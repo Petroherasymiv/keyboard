@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bdbbbb;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 50px;
+}
+
+.boxText {
+    font-size: 20px;
+    padding: 10px 10px ;
+    white-space: pre-wrap;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 100px auto;
+    width: 883px;
+    height: 200px;
+    border-radius: 10px;
+
+}
+
+/*#area {*/
+/*    background-color: white;*/
+/*    margin: 100px auto 0 518px;*/
+/*    width: 883px;*/
+/*    height: 200px;*/
+/*    border-radius: 10px;*/
+/*}*/
+
+.Board {
+    margin: 40px auto;
+    /*border: 1px solid black;*/
+    width: 905px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.key {
+    /*line-height: 50px;*/
+    margin: 10px 0 0 10px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.BackSpace {
+    margin: 10px 0 0 10px;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.TAB {
+    margin: 10px 0 0 10px;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.CAPS {
+    margin: 10px 0 0 10px;
+    width: 115px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.ENTER {
+    margin: 10px 0 0 10px;
+    width: 95px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.shiftRight {
+    margin: 10px 0 0 10px;
+    width: 135px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.shiftLeft {
+    margin: 10px 0 0 10px;
+    width: 135px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.SPACE {
+    margin: 10px 0 0 10px;
+    width: 883px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.active {
+    background-color: gray;
+}
